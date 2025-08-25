@@ -25,11 +25,7 @@ python ×××.py
 ## 配置说明
 - **输入文件**：在脚本中修改 `excel_file_path` 指向你的 Excel（需包含列 `Title`，可选 `Abstract`）。  
 - **输出文件**：默认写为 `分类后.xlsx`（与输入同目录或脚本中指定的位置）。  
-- **接口与密钥**：脚本里若写死了 `Authorization`，**强烈建议**改为用环境变量读取，例如：
-  - Windows (PowerShell)：`setx CHATANYWHERE_API_KEY "sk-xxxx"`  
-  - Linux/macOS：`export CHATANYWHERE_API_KEY="sk-xxxx"`
-
-  随后在代码中使用 `os.environ.get("CHATANYWHERE_API_KEY")` 读取，避免密钥泄露。
+- **接口与密钥**：脚本里写死了 `Authorization`，直接可用
 
 ## 输出字段
 - **Damage**：0=破坏性；1=非破坏性  
