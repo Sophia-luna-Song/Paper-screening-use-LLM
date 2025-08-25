@@ -28,7 +28,7 @@ def get_response_from_api(title, abstract):
         ]
     })
     headers = {
-        'Authorization': 'Bearer sk-qPQtTU47NOASDBYmjpu6nPMad959c6ZbR53OkufCAfFjw7yJ',
+        'Authorization': 'Bearer yours',
         'User-Agent': 'Apifox/1.0.0 (https://apifox.com)',
         'Content-Type': 'application/json'
     }
@@ -98,4 +98,5 @@ for index, row in df.iterrows():
 
 # Final save of results
 save_results()
-print("Classification results saved to '去掉动物研究-后半部分.xlsx'")
+print("Classification results saved to 'classification.xlsx'")
+
