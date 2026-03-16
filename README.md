@@ -1,4 +1,4 @@
-# Paper-screening-use-LLM （密钥还有余额可用，先到先得
+# Paper-screening-use-LLM 
 # Excel 文献分类脚本
 
 ## 项目简介
